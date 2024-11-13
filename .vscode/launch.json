@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: run poetry",
+      "type": "python",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "module": "fastapp",
+      "args": [],
+      "console": "integratedTerminal",
+      "justMyCode": false
+    }
+  ]
+}
