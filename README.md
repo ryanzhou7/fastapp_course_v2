@@ -33,7 +33,7 @@ Remember, this is your repo. You have all admin permissions.
 
 One difference between this original repo and your fork is that your forked repo will not have the existing pull requests (PRs).
 
-For the "solutions", you will find them in the form of PRs in the original repos.
+For the "solutions", you will find them in the form of PRs in this original repos like [this PR](https://github.com/ryanzhou7/fastapp_course_v2/pull/1/files)
 
 It is encouraged that you commit code on your original repo as if you were the developer adding the feature.
 
@@ -43,7 +43,8 @@ Now we discuss the how of learning the curriculum above.
 
 In general, we want to make small incremental steps. i.e. understanding all the existing material / code, then add the smallest chunk possible to learn, and repeat.
 
-Though the smallest chunk possible would ideally be, well, small, sometimes that is not possible. Hence, each lesson will have ratings, from easy, medium, to hard to help manage expectations.
+Though the smallest chunk possible would ideally be, well, small, sometimes that is not possible.
+Hence, each lesson will have a rating to help manage expectations.
 
 | Symbol | Difficulty |
 | ------ | ---------- |

@@ -188,6 +188,42 @@ Test to see if `__main__.py` is also an edge case.
 
 Solution: It is
 
+## Project run
+
+If you have read other tutorials, like the official documentation [here](https://fastapi.tiangolo.com/#create-it) where they have a dead simple application:
+
+```python
+# main.py
+from typing import Union
+from fastapi import FastAPI
+app = FastAPI()
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
+```
+
+and they run the application via:
+
+`$ fastapi dev main.py`
+
+You'll notice that this it differs from how we run the application, i.e.
+
+`$ poetry run python -m fastapp`
+
+Also, we don't have a `main.py` file.
+
+Neither is incorrect, or correct. But, will we follow the
+`$ poetry run python -m fastapp` method because this generation tool is able
+to generate a project that is setup with nearly all the libraries you need.
+
+It will be much more difficult to add libraries to the `$ fastapi dev main.py`
+example.
+
+Lastly, the scope of the official FastAPI documentation likely doesn't extend
+to include how project are structured in production (i.e. using poetry, etc...)
+
+Now, we will go into the details of understanding how the coded we generated works.
+
 ## Debugger setup
 
 We will now see the sequence of execution when we run the app.
