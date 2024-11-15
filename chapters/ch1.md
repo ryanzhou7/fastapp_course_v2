@@ -24,7 +24,7 @@ Now that you installed poetry with pipx, install `fastapi_template` with `pipx i
 
 Run `$ fastapi_template --help` helpful explanations.
 
-You are ready to create the project now. Change directory to where you like the project folder to be and run:
+You are ready to create the project now. Change directory to the root of the repo you cloned and run:
 
 `$ fastapi_template -n fastapp --quiet --api-type rest --db none --orm none --ci none`
 
