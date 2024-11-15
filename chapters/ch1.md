@@ -196,7 +196,9 @@ If you have read other tutorials, like the official documentation [here](https:/
 # main.py
 from typing import Union
 from fastapi import FastAPI
+
 app = FastAPI()
+
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
