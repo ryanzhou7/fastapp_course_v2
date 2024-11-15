@@ -188,7 +188,7 @@ Test to see if `__main__.py` is also an edge case.
 
 Solution: It is
 
-## Project run
+## Project run differences
 
 If you have read other tutorials, like the official documentation [here](https://fastapi.tiangolo.com/#create-it) where they have a dead simple application:
 
